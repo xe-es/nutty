@@ -24,6 +24,9 @@
 		"email": "Maysara.Elshewehy@gmail.com"
 	},
 	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/xe-es/nutty.git"
