@@ -1,0 +1,50 @@
+{
+	"name": "@xe-es/nutty",
+	"version": "0.0.1",
+	"description": "A simple package for creating projects faster",
+	"main": "./dist/main.js",
+	"module": "./dist/main.mjs",
+	"types": "./dist/main.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"test": "jest",
+		"build": "tsup",
+		"start": "npx ts-node ./src/code/main.ts",
+		"dist": "ts-node ./dist/main.js"
+	},
+	"keywords": [
+		"xe-es",
+		"nutty",
+		"Maysara Elshewehy"
+	],
+	"author": {
+		"name": "Maysara Elshewehy",
+		"email": "Maysara.Elshewehy@gmail.com"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xe-es/nutty.git"
+	},
+	"bugs": {
+		"url": "https://github.com/xe-es/nutty/issues"
+	},
+	"bin": {
+		"nutty": "./dist/main.js"
+	},
+	"homepage": "https://github.com/xe-es/nutty#readme",
+	"devDependencies": {
+		"@types/jest": "^29.5.12",
+		"@types/node": "^20.12.7",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.1.2",
+		"ts-node": "^10.9.2",
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"commander": "^12.1.0"
+	}
+}
