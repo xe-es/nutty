@@ -1,6 +1,6 @@
 {
 	"name": "@xe-es/nutty",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Start any project with a single command",
 	"main": "./dist/main.js",
 	"module": "./dist/main.mjs",
